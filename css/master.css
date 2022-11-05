@@ -1,0 +1,1250 @@
+
+html, body {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+:root{
+    --main-color: #29E1BE ;
+    --secndry-color : #007a96;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+  html {
+    scroll-behavior: smooth ;
+  }
+
+
+header{
+  display: flex ;
+  justify-content: space-between ;
+  background-color: white ;
+  align-items: center ;
+  width: calc(100% - 250px) ;
+  border-radius: 10px ;
+  padding-left: 30px ;
+  padding-right: 30px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  margin-top: 25px;
+  margin-left: 150px ;
+  box-shadow: 5px 1px 50px 1px rgb(240, 233, 233)  ;
+  
+}
+
+header img{
+  
+  width: 800px ;
+  position: absolute ;
+  top: -60px;
+  left: 40.70% ;
+  z-index: -1 ;
+}
+
+header .logo h1 {
+  margin: 0 ;
+  font-size: 40px ;
+  font-weight: 700;
+  letter-spacing: -0px ;
+  text-transform: uppercase;
+ 
+}
+
+
+header .logo p {
+  margin: 0 ;
+  font-size: 15px ;
+  background-image: linear-gradient(to right, #29E1BE, #007a96 );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
+  letter-spacing: 1px ;
+  position: relative;
+  bottom: 15px;
+}
+
+header .header-links  a {
+text-decoration: none ;
+padding-left: 25px ;
+color: rgba(119, 119, 119, 0.641);
+font-weight: bold ;
+}
+
+header .header-buttom  a {
+padding-left: 30px ;  
+padding-right: 30px ;
+padding-top: 10px;
+padding-bottom: 10px ;
+border-radius: 25px ;
+text-decoration: none ;
+font-size: 13px ;
+color: white ;
+background-color: #29E1BE ;
+background-image: linear-gradient(to right, #29E1BE, #007a96 );
+
+}
+
+
+
+.lading{
+  padding-left: 180px;
+  padding-right:180px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.lading .lading-text h2{
+   
+   font-size: 15px ;
+   font-weight: 400;
+   background-image: linear-gradient(to right, #29E1BE, #007a96 );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
+   letter-spacing: 5px ;
+}
+
+.lading .lading-text h1{
+   
+   font-size: 40px ;
+   font-weight: 900;
+   
+
+}
+
+.lading .lading-text span a {
+
+  background-image: linear-gradient(to right, #29E1BE, #007a96 );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
+
+}
+
+
+.lading-buttom{
+  margin-top: 60px;
+}
+
+.lading-buttom :first-child{
+  text-decoration: none ;
+  background-image: linear-gradient(to right, #29E1BE, #007a96 );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
+  font-weight: 700 ;
+  background-color: white;
+  border-radius: 25px ;
+  padding-left: 30px ;  
+  padding-right: 30px ;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  border-radius: 25px ;
+  box-shadow: 5px 1px 40px 10px rgb(240, 233, 233)  ;
+
+}
+
+.lading-buttom :nth-child(2){
+  color: rgba(119, 119, 119, 0.47);
+  font-size: 13px ;
+  margin-left: 30px ;
+
+}
+
+
+.card-section{
+  display: flex;
+  justify-content: space-between;
+  padding-left:100px;
+  padding-right: 100px;
+  padding-top:50px ;
+  padding-bottom:50px ;
+}
+
+
+.card-section .card {
+  background-color: white ;
+  box-shadow: 5px 1px 40px 1px rgb(240, 233, 233)  ;
+  padding: 40px;
+  margin-left: 25px ;
+}
+
+
+.card-section .card i{
+  font-size: 35px;
+  color: var(--main-color);
+}
+.card-section .card h1{
+  color: rgba(0, 0, 0, 0.83);
+  font-weight: 450;
+}
+.card-section .card p{
+  max-width: 178px;
+  font-size: 14px;
+  color: #777;
+}
+
+
+.card-section .main-card {
+  background-image:linear-gradient(to bottom, #29E1BE, #007a96 ) ;
+  
+ }
+
+.card-section .main-card h1{
+  color: white;
+  font-weight: 700;
+  max-width: 200px;
+  
+ }
+
+.card-section .main-card p{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  
+ }
+
+
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px ;
+  padding-right: 200px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  background-color: #d6dee1;
+  height: 750px;
+  position: relative;
+  bottom: 150px;
+  z-index: -1;
+  
+}
+
+.about-text{
+margin-top: 230px;
+}
+
+
+.about h1{
+  font-size: 35px ;
+  font-weight: 900;
+  margin: 0;
+}
+.about p{
+ max-width: 500px ;
+ color: #777;
+ margin-top: 100px ;
+}
+
+.about h2{
+  font-size: 15px ;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--main-color);
+  letter-spacing: 5px;
+}
+.about img{
+  width: 350px;
+  margin-top: 220px ;
+}
+
+.about-check{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+.about-check h1{
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+}
+
+
+.about-check i{
+ color: var(--main-color);
+ font-size: 30px;
+}
+
+
+.works{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right:180px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.works img{
+  width:400px ;
+  height: 400px;
+  margin-top: 50px;
+
+}
+
+.works .work-text .n-one{
+  margin-top: 5px;
+}
+.works .work-text .wrk-tet-h2 {
+  font-size: 15px ;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--main-color);
+  letter-spacing: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.works .work-text .wrk-tet-h1 {
+  font-size: 35px ;
+  font-weight: 700;
+
+}
+
+.works .work-text-numberes .n-one{
+  margin: 0;
+}
+
+.works .work-text-numberes .n-one .one {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.works .work-text-numberes .n-one  {
+  
+ margin-bottom: -70px;
+}
+
+.works .work-text-numberes .n-one p {
+  max-width: 370px;
+  color: #777;
+  position: relative;
+  bottom: 15px;
+  font-size: 13px;
+  
+}
+
+.works .work-text-numberes .n-one h2{
+  font-size: 15px;
+  margin: 0;
+}
+
+.works .work-text-numberes .n-one  {
+  display: flex;
+
+}
+
+
+
+.works .work-text-numberes .n-one .n h1  {
+  font-size: 60px;
+  font-weight: 100;
+  color: var(--secndry-color);
+  margin-top: 20px;
+}
+
+
+
+
+.projects{
+  background-color:#d6dee1 ;
+  height: 400px;
+
+}
+
+.projects .projects-text {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  
+}
+
+.projects .projects-text h2 {
+  font-size: 15px ;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--main-color);
+  letter-spacing: 5px;
+ 
+}
+
+.projects .projects-text h1 {
+  font-size: 35px ;
+  font-weight: 700;
+  margin: 0;
+}
+
+.projects .projects-text p {
+ color: #777;
+ margin-top: 5px;
+}
+
+
+ .projects-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  padding-left: 200px;
+  padding-right:200px ;
+ 
+}
+
+ .projects-cards .cards img{
+  width: 300px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.projects-cards .cards img:hover{
+  filter: grayscale(0%);
+}
+
+
+.projects-buttom{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.projects .projects-buttom a{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-image:linear-gradient(to right, #29E1BE, #007a96 ) ;
+  padding-left: 30px ;  
+  padding-right: 30px ;
+  padding-top: 6px;
+  padding-bottom: 6px ;
+  border-radius: 25px ; 
+}
+
+hr{
+  width: 900px;
+  height: -1px ;
+  color: #29E1BE;
+  margin-top: 200px;
+}
+
+
+
+.massages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 500px;
+  padding-left: 100px ;  
+  padding-right: 100px ;
+  padding-top: 6px;
+  padding-bottom: 6px ;
+}
+
+.massages img{
+  width: 600px;
+
+}
+
+.massages .massages-text h1{
+  font-size: 35px ;
+  font-weight: 700;
+  margin: 0;
+
+}
+.massages .massages-text h2{
+ position: relative;
+ top: 10px;
+ font-size: 15px ;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: var(--main-color);
+ letter-spacing: 5px;
+
+}
+
+.massages .massages-text p{
+  max-width: 370px;
+  color: #777;
+  position: relative;
+  bottom: 20px;
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+}
+
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 5px 1px 50px 1px rgb(240, 233, 233)  ;
+  width: calc(100% - 250px) ;
+  position: relative;
+  top: 100px;
+  padding-left: 100px ;  
+  padding-right: 100px ;
+  padding-top: 30px;
+  padding-bottom: 30px ;
+  margin-left: 150px ;
+  
+}
+
+
+.contact .text .ready{
+color: #29E1BE;
+}
+
+.contact .text h1{
+  font-weight: 700;
+}
+
+.contact .text p{
+  color: #777;
+}
+
+.contact  a{
+  text-decoration: none;
+  padding-left: 30px ;  
+  padding-right: 30px ;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  border-radius: 25px ;
+  font-size: 13px ;
+  color: white ;
+  background-color: #29E1BE ;
+  background-image: linear-gradient(to right, #29E1BE, #007a96 );
+}
+
+
+.contant{
+  display: flex;
+  justify-content: space-between;
+  margin-top:  200px;
+
+}
+.footer-name{
+  background-color: #d6dee1;
+  height:630px;
+  padding-left: 100px ;  
+  padding-right: 100px ;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  z-index: -1;
+}
+
+.footer-name .logo h1{
+  margin: 0 ;
+  font-size: 40px ;
+  font-weight: 700;
+  letter-spacing: -0px ;
+  text-transform: uppercase;
+}
+
+.footer-name .logo p{
+  position: relative;
+  bottom: 15px;
+}
+
+
+.contant .p-mid{
+  color: #777;
+  max-width: 400px;
+}
+
+.contact-number span{
+font-weight: 700;
+}
+
+.contact-number{
+  color: #777;
+  padding-top: 20px;
+}
+
+.contact-social-icons i{
+  color: #777;
+  font-size: 20x;
+  padding-left: 15px;
+  margin-top: 20px;
+  
+}
+
+
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.main-names-one {
+  padding-left:50px ;
+  padding-right:50px ;
+  margin-top: -30px ;
+}
+.main-names-one h1{
+  font-size: 15px;
+}
+
+
+.main-names-one p{
+  color: #777;
+  font-size: 13px;  
+
+}
+
+
+
+
+.creator{
+  text-align: center;
+}
+
+.creator h5{
+  font-weight: bolder;
+}
+
+
+
+
+@media (max-width: 900px ){
+  header{
+    width: 95% ;
+    margin: 15px;
+  }
+  header .header-buttom  a {
+    font-size: 11px ;
+    margin-left: 15px;
+    }
+    header img{
+      display: none;
+      }
+      .lading{
+        padding-left: 20px;
+        padding-right:20px ;
+      }
+      .lading .lading-text {
+        text-align: center;
+        
+     }
+     .card-section .card {
+      padding: 50px 100px;
+      margin-left: 50px ;
+      margin-top: 20px;
+    }
+    .card-section{
+      display: flex;
+      overflow: hidden;
+      padding-left:50px;
+      padding-right: 50px;
+      text-align: cente;
+      position: relative;
+      right: 0px;
+      
+      
+    }
+    .about{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 20px ;
+      padding-right: 20px;
+      padding-top: 10px ;
+      padding-bottom: 10px ;
+      background-color: #d6dee1;
+      height: 750px;
+      position: relative;
+      bottom: 150px;
+      z-index: -1;
+      
+    }
+    
+    .about-text{
+    margin-top: 230px;
+    }
+    
+    
+    .about h1{
+      font-size: 20px ;
+      font-weight: 900;
+      margin: 0;
+    }
+    .about p{
+     max-width: 500px ;
+     color: #777;
+     margin-top: 10px ;
+    }
+    
+    .about img{
+      width: 350px;
+    }
+    
+    .about-check{
+      display: block;
+    
+    }
+    
+    .about-check h1{
+      font-size: 15px;
+    }
+    
+    
+    .about-check i{
+     font-size: 25px;
+    }
+    .works{
+      padding-left: 150px;
+      padding-right:150px ;
+    }
+    
+    .works img{
+    display: none;
+    
+    }
+    .projects-cards{
+      margin-top: 150px;
+      padding-left: 20px;
+      padding-right:20px ;
+     
+    }
+    .projects-cards .cards img{
+      width: 250px;
+    }
+    .massages{
+      display: block;
+      margin-top: 100px;
+      align-items: center;
+      padding-left: 100px ;  
+      padding-right: 100px ;
+    }
+    
+    .massages img{
+      width: 650px;
+    
+    }
+    .massages .massages-text{
+      margin-top: 100px;
+      text-align: center;
+    }
+    .massages .massages-text p{
+      position: relative;
+      bottom: 20px;
+      left: 140px;
+
+    }
+    hr{
+      width: 0;
+     }
+
+
+     .contact{
+      display: block;
+      text-align: center;
+      width: 95% ;
+      padding-left: 20px ;  
+      padding-right: 20px ;
+      padding-top: 30px;
+      padding-bottom: 30px ;
+      margin-left: 10px ;
+      
+    }
+
+    
+.contant{
+  display: flex;
+  justify-content: space-between;
+  margin-top:  200px;
+
+}
+.footer-name{
+  height:900px;
+}
+.footer-name .logo{
+  position: relative;
+  bottom: 35px;
+}
+
+.footer-name .logo p{
+  position: relative;
+  bottom: 15px;
+}
+
+
+.contant .p-mid{
+  color: #777;
+  max-width: 400px;
+}
+
+.contact-number span{
+font-weight: 700;
+}
+
+.contact-number{
+  color: #777;
+  padding-top: 20px;
+}
+
+.contact-social-icons i{
+  color: #777;
+  font-size: 20x;
+  padding-left: 15px;
+  margin-top: 20px;
+  
+}
+
+
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.main-names-one {
+  padding-left:50px ;
+  padding-right:50px ;
+  margin-top: -30px ;
+}
+.main-names-one h1{
+  font-size: 15px;
+}
+
+
+.main-names-one p{
+  color: #777;
+  font-size: 13px;  
+
+}
+
+
+
+
+.creator{
+  text-align: center;
+}
+
+.creator h5{
+  font-weight: bolder;
+}
+
+}
+
+
+@media (max-width: 800px) {
+  
+  header img{
+  display: none;
+  }
+  header{
+    width: 95% ;
+    margin: 15px;
+  }
+  
+    header .header-buttom  a {
+      font-size: 8px ;
+      }
+
+      .projects-cards{
+        margin-top: 150px;
+        padding-left: 20px;
+        padding-right:20px ;
+       
+      }
+      .projects-cards .cards img{
+        width: 230px;
+      }
+      .massages{
+        display: block;
+        align-items: center;
+        padding-left: 100px ;  
+        padding-right: 100px ;
+      }
+      
+      .massages img{
+        width: 600px;
+      
+      }
+      .massages .massages-text{
+        margin-top: 100px;
+        text-align: center;
+      }
+      .massages .massages-text p{
+        position: relative;
+        bottom: 20px;
+        left: 120px;
+  
+      }
+      .footer-name{
+        height:1000px;
+      }
+}
+
+
+
+
+@media (max-width: 760px) {
+  
+  header img{
+  display: none;
+  }
+  header{
+    width: 90% ;
+    margin: 15px;
+  }
+  header .logo p {
+    font-size: 13px;
+  }
+  header .header-links  a {
+    display: none;
+    }
+    header .header-buttom  a {
+      font-size: 11px ;
+      }
+
+      header .logo h1 {
+       font-size: 30px;
+      }
+
+
+      .lading{
+        padding-left: 20px;
+        padding-right:20px ;
+      }
+      .lading .lading-text {
+        text-align: center;
+        
+     }
+     .card-section{
+      display: block;
+      padding-left:50px;
+      padding-right: 50px;
+      
+      
+    }
+
+    .card-section .main-card h1{
+      
+      margin-left: 35px;
+     }
+    .card-section .main-card p{
+      
+      margin-left: 50px;
+     }
+
+     .card-section .card {
+      padding: 40px;
+      margin-left: 10px ;
+      margin-top: 20px;
+    }
+
+
+
+
+    .about{
+      padding-left: 20px ;
+      padding-right: 20px;
+      padding-top: 10px ;
+      padding-bottom: 10px ;
+    }
+    
+    .about-text{
+    margin-top: 230px;
+    }
+    
+    
+    .about h1{
+      font-size: 20px ;
+    }
+    .about p{
+     margin-top: 10px ;
+    }
+
+    .about img{
+      display: none;
+    }
+    
+    .about-check{
+      display: block;
+    
+    }
+    
+    .about-check h1{
+      font-size: 15px;
+    }
+    
+    
+    .about-check i{
+     font-size: 25px;
+    }
+
+    .works{
+      padding-left: 20px;
+      padding-right:20px ;
+    }
+    
+    .works img{
+    display: none;
+    
+    }
+    
+    .projects .projects-text h2 {
+      font-size: 13px ;
+    }
+    
+    .projects .projects-text h1 {
+      font-size: 25px ;
+    }
+    
+    
+    
+    
+     .projects-cards{
+      display: block;
+      margin-top: 150px;
+      padding-left: 50px;
+      padding-right:50px ;
+     
+    }
+    
+     .projects-cards .cards img{
+      width: 300px;
+    }
+    
+    
+    hr{
+     width: 0;
+    }
+
+    .massages{
+      display: block;
+      margin-top: 600px;
+      align-items: center;
+      padding-left: 20px ;  
+      padding-right: 20px ;
+    }
+    
+    .massages img{
+      width: 390px;
+    
+    }
+    .massages .massages-text{
+      margin-top: 100px;
+    }
+    
+    .massages .massages-text p{
+      
+      position: relative;
+      bottom: 20px;
+      left: 10px;
+    }
+    .massages .massages-text h2{
+      position: relative;
+      top: 10px;
+      left: 20px;
+      font-size: 10px ;
+     
+     }
+
+     .contact{
+      display: block;
+      text-align: center;
+      width: 95% ;
+      padding-left: 20px ;  
+      padding-right: 20px ;
+      padding-top: 30px;
+      padding-bottom: 30px ;
+      margin-left: 10px ;
+      
+    }
+    
+    
+    .contact .text .ready{
+    color: #29E1BE;
+    }
+    
+    .contact .text h1{
+      font-weight: 700;
+      
+    }
+    
+    .contact .text p{
+      color: #777;
+    }
+    
+    .contact  a{
+      position: relative;
+      top: 10px;
+      font-size: 13px ;
+    }
+    
+    
+    .contant{
+      display: flex;
+      justify-content: space-between;
+      margin-top:  200px;
+    
+    }
+    .contant{
+      display: block;
+      justify-content: space-between;
+      margin-top:  200px;
+      text-align: center;
+    
+    }
+    .footer-name{
+      height:1200px;
+    }
+    .footer-name .logo{
+      position: relative;
+      bottom: 35px;
+    }
+    .footer-name .logo h1{
+      margin: 0 ;
+      font-size: 40px ;
+      font-weight: 700;
+      letter-spacing: -0px ;
+      text-transform: uppercase;
+    }
+    
+    .footer-name .logo p{
+      position: relative;
+      bottom: 15px;
+    }
+    
+    
+    .contant .p-mid{
+      color: #777;
+      max-width: 400px;
+    }
+    
+    .footer-links{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      right: 50px;
+      top: 50px;
+    
+    }
+    
+    .main-names-one {
+      padding-left:25px ;
+      padding-right:25px ;
+      margin-top: -30px ;
+    }
+     
+    
+    .creator{
+      text-align: center;
+      
+    }
+    
+    .creator h5{
+      font-weight: bolder;
+      margin-top: 100px;
+    }
+
+
+}
+
+
+@media (max-width: 410px){
+
+  .massages img{
+    width: 355px;
+  
+  }
+  .footer-name{
+    height:1330px;
+  }
+}
+
+
+
+
+@media (max-width: 380px ){
+  
+  header .header-buttom  a {
+    font-size: 8px ;
+    }
+    .card-section .main-card h1{
+      
+      margin-left: 20px;
+     }
+    .card-section .main-card p{
+      
+      margin-left: 30px;
+     }
+     .works{
+      padding-left: 15px;
+      padding-right:15px ;
+    }
+
+    .projects-cards{
+      display: block;
+      margin-top: 150px;
+      padding-left: 35px;
+      padding-right:35px ;
+     
+    }
+    
+    .lading-buttom :nth-child(2){
+      font-size: 5px;
+      
+   }
+   header .header-buttom  a {
+    padding-left: 10px ;  
+    padding-right: 10px ;
+    }
+    .massages img{
+      width: 330px;
+    
+    }
+    .massages .massages-text p{
+      
+      position: relative;
+      bottom: 20px;
+      left: 10px;
+    }
+    .massages .massages-text h2{
+      position: relative;
+      top: 10px;
+      left: 20px;
+      font-size: 10px ;
+     
+     }
+     .footer-links{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      right: 75px;
+      top: 50px;
+    
+    }
+    .footer-name{
+      height:1300px;
+    }
+}
+
+
+
+
+
+
+
+
